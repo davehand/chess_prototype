@@ -1,0 +1,2 @@
+all: gameDriver.cpp GameBoard.cpp Ceo.cpp Developer.cpp Manager.cpp Piece.cpp President.cpp Supervisor.cpp TeamLeader.cpp
+	g++ gameDriver.cpp GameBoard.cpp Ceo.cpp Developer.cpp Manager.cpp Piece.cpp President.cpp Supervisor.cpp TeamLeader.cpp -o finalHandD
